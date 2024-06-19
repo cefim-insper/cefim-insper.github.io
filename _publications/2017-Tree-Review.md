@@ -1,7 +1,7 @@
 ---
 authors: "Matheus Patrocinio"
 displayDate: "2024"
-date: 2024
+date: 2024-06-19
 title: "Monetary Policy Shocks in Brazil"
 blurb: "summary here"
 source: "https://github.com/cefim-insper/cefim-insper.github.io/projects/DI_Surprise_MPshock.html"
