@@ -3,7 +3,7 @@ title: "Global FX Factors"
 displayDate: "2024"
 date: 2024-06-19
 authors: "Mohammed Kaebi"
-blurb: "Presents a methodology to detect MP Shocks in Brazil using daily frequency data, building on Ferreira Neto's adaptation (2023) of Gertler and Karadi's (2015) framework."
+blurb: "We compute currency risk factors and portfolios from the FX literature based on the following works: Lustig, Roussanov and Verdelhan (2011), Menkhoff, Sarno, Schmeling and Schrimpf (2012) and Menkhoff, Sarno, Schmeling and Schrimpf (2017)"
 source: https://cefim-insper.github.io/projects/fx_factors.html
 image:
   url: /images/fx_factors.png
