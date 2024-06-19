@@ -13,7 +13,7 @@
     <a href="{{ publication.source }}">
     {% endif %}
       <h3>
-        {{ publication.authors }}
+        {{ publication.title }}
         <span class="timestamp">{{ publication.displayDate }}</span>
       </h3>
     {% if publication.source %}
@@ -22,7 +22,7 @@
   </header>
 
   <p>
-    {{ publication.title }}. {{ publication.blurb }}
+    {{ publication.blurb }}. {{ publication.authors }}
   </p>
 
   <p>
