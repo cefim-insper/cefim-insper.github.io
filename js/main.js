@@ -28,8 +28,8 @@
           return;
         }
 
-        var emailName = 'antonio.linero';
-        var emailDomain = 'austin.utexas.edu';
+        var emailName = 'cefim';
+        var emailDomain = 'insper.edu.br';
         var $email = $(
           '<span id="email">' +
             '<a href="mailto:' +
