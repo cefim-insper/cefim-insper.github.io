@@ -1,11 +1,11 @@
 ---
-authors: "Linero, A.R."
-displayDate: "2017"
-date: 2017-11-30
-title: "A Review of Tree-Based Bayesian Methods"
-blurb: "Communications for Statistical Applications and Methods, 24(6), 543-559"
-source: "http://www.csam.or.kr/journal/view.html?doi=10.29220/CSAM.2017.24.6.543"
+authors: "Matheus Patrocinio"
+displayDate: "2024"
+date: 
+title: "Monetary Policy Shocks in Brazil"
+blurb: "summary here"
+source: "https://github.com/cefim-insper/cefim-insper.github.io/projects/DI_Surprise_MPshock.html"
 image:
-  url: /images/2017-Tree-Review.jpg
+  url: /images/DI_Surprise_MPshock_image.png
   alt: "Comparisons"
 ---
