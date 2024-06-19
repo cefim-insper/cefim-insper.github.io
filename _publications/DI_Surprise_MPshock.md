@@ -1,5 +1,5 @@
 ---
-authors: "Patrocinio, M."
+authors: "Matheus Patrocinio"
 displayDate: "2024"
 date: 
 title: "Monetary Policy Shocks in Brazil"
