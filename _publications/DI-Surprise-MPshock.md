@@ -1,9 +1,9 @@
 ---
-authors: "Matheus Patrocinio"
+authors: "Monetary Policy Shocks in Brazil"
 displayDate: "2024"
 date: 2024-06-19
-title: "Monetary Policy Shocks in Brazil"
-blurb: "summary here"
+title: "Matheus Patrocinio"
+blurb: "Presents a methodology to detect MP Shocks in Brazil using daily frequency data, building on Ferreira Neto's adaptation (2023) of Gertler and Karadi's (2015) framework."
 source: https://cefim-insper.github.io/projects/DI_Surprise_MPshock.html
 image:
   url: /images/DI_Surprise_MPshock_image.png
