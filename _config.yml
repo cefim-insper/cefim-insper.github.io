@@ -2,14 +2,14 @@
 #
 
 # Site settings
-title: Antonio Linero
+title: CeFiM
 description: |
-  The web page of Dr. Antonio Linero,
-  Assistant Professor in the Department of
-  Statistics, Florida State University
-owner: Antonio Linero
-first_published: 2015
-email: antonio.linero@austin.utexas.edu
+  The web page of CeFiM, 
+  the Finance and Macroeconomics study unit
+  at Insper
+owner: CeFiM
+first_published: 2024
+email: cefim@insper.edu.br
 # baseurl: "/~arlinero" # "http://ani.stat.fsu.edu/~arlinero" # the subpath of your site, e.g. /blog
 baseurl: ""
 # url: "http://ani.stat.fsu.edu"
