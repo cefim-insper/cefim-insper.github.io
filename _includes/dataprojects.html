@@ -1,6 +1,6 @@
 <article>
   <a class="image featured" {% if dataprojects.source %}href="{{ dataprojects.source }}"{% endif %}>
-    {% if publication.image %}
+    {% if dataprojects.image %}
     <img src="{{ dataprojects.image.url | default: '' }}"
          alt="{{ dataprojects.image.alt | default: '' }}" />
     {% else %}
