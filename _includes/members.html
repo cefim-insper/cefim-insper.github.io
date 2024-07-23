@@ -1,0 +1,29 @@
+<article>
+  <a class="image featured" {% if dataprojects.source %}href="{{ dataprojects.source }}"{% endif %}>
+    {% if dataprojects.image %}
+    <img src="{{ dataprojects.image.url | default: '' }}"
+         alt="{{ dataprojects.image.alt | default: '' }}" />
+    {% else %}
+      <img class="no-image" alt="No image provided" />
+    {% endif %}
+  </a>
+
+  <header>
+    {% if dataprojects.source %}
+    <a href="{{ dataprojects.source }}">
+    {% endif %}
+      <h3>
+        {{ dataprojects.title }}
+        <span class="timestamp">{{ dataprojects.displayDate }}</span>
+      </h3>
+    {% if dataprojects.source %}
+    </a>
+    {% endif %}
+  </header>
+
+  <p>
+  {% for link in dataprojects.links %}
+    <a href="{{ link.url }}">{{ link.text }}</a>
+  {% endfor %}
+  </p>
+</article>
