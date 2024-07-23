@@ -1,0 +1,16 @@
+---
+layout: default
+title: Members
+---
+
+<!-- <aside>For an up-to-date list of publications, see my <a href="https://scholar.google.com/citations?user=FoJblhgAAAAJ&hl=en">Google Scholar</a> page.</aside> -->
+
+<div class="members">
+
+  {% assign members = (site.members | sort: 'date') | reverse %}
+
+  {% for members in members %}
+    {% include members.html members=members %}
+  {% endfor %}
+
+</div>
