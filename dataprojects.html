@@ -9,8 +9,8 @@ title: Data Projects
 
   {% assign dataprojects = (site.dataprojects | sort: 'date') | reverse %}
 
-  {% for dataprojects in dataprojects %}
-    {% include dataprojects.html dataprojects=dataprojects %}
+  {% for dataproject in dataprojects %}
+    {% include dataproject.html dataproject=dataproject %}
   {% endfor %}
 
 </div>
