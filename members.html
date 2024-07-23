@@ -5,7 +5,7 @@ title: Members
 
 <div class="members">
 
-  {% assign members = (site.members | sort: 'date') | reverse %}
+  {% assign members = (site.members) | reverse %}
 
   {% for member in members %}
     {% include member.html member=member %}
