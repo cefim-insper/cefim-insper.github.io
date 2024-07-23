@@ -1,4 +1,3 @@
-
 ---
 title: "Pietro Consonni"
 displayDate: "2024"
