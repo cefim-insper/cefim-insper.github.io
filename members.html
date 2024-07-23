@@ -7,8 +7,8 @@ title: Members
 
   {% assign members = (site.members | sort: 'date') | reverse %}
 
-  {% for members in members %}
-    {% include members.html members=members %}
+  {% for member in members %}
+    {% include member.html member=member %}
   {% endfor %}
 
 </div>
