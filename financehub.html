@@ -191,28 +191,23 @@ title: Finance Hub
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-    const toggle2024Button = document.getElementById('toggle-2024');
-    const toggle2023Button = document.getElementById('toggle-2023');
-    const meetings2024 = document.getElementById('meetings-2024');
-    const meetings2023 = document.getElementById('meetings-2023');
+        const toggle2024Button = document.getElementById('toggle-2024');
+        const toggle2023Button = document.getElementById('toggle-2023');
+        const meetings2024 = document.getElementById('meetings-2024');
+        const meetings2023 = document.getElementById('meetings-2023');
 
-    function showMeetings(meetingsToShow) {
-        // Hide all meetings lists
-        meetings2024.classList.remove('show');
-        meetings2023.classList.remove('show');
-        
-        // Show the selected meetings list
-        meetingsToShow.classList.add('show');
-    }
+        toggle2024Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2024 meetings list
+            meetings2024.classList.toggle('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+        });
 
-    toggle2024Button.addEventListener('click', function() {
-        // Show the 2024 meetings list and hide the 2023 meetings list
-        showMeetings(meetings2024);
+        toggle2023Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2023 meetings list
+            meetings2023.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+        });
     });
-
-    toggle2023Button.addEventListener('click', function() {
-        // Show the 2023 meetings list and hide the 2024 meetings list
-        showMeetings(meetings2023);
-    });
-});
 </script>
