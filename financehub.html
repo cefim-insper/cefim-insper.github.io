@@ -3,12 +3,12 @@ layout: default
 title: Finance Hub
 ---
 <style>
-    #meetings-2024, #meetings-2023 {
+    #meetings-2024, #meetings-2023, #meetings-2022, #meetings-2021, #meetings-2020, #meetings-2019, #meetings-2018 {
         display: none; /* Hide the meetings lists by default */
         margin-top: 20px;
     }
 
-    #meetings-2024.show, #meetings-2023.show {
+    #meetings-2024.show, #meetings-2023.show, #meetings-2022.show, #meetings-2021.show, #meetings-2020.show, #meetings-2019.show, #meetings-2018.show {
         display: block; /* Show the meetings list when the 'show' class is added */
     }
 </style>
@@ -42,8 +42,13 @@ title: Finance Hub
             </p>
 
             <!-- Buttons for toggling -->
-            <button id="toggle-2024">2024 Meetings</button>
-            <button id="toggle-2023">2023 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2024">2024 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2023">2023 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2022">2022 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2021">2021 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2020">2020 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2019">2019 Meetings</button>
+            <button style="background-color: #C00026; color: white;" id="toggle-2018">2018 Meetings</button>
 
             <!-- 2024 Meetings -->
             <div id="meetings-2024" class="meeting-list">
@@ -185,6 +190,471 @@ title: Finance Hub
                 </div>
             </div>
             
+            <!-- 2022 Meetings -->
+            <div id="meetings-2022" class="meeting-list">
+                <div class="meeting-item">
+                    <p><strong>Machine Learning</strong> (November 21)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Machine Learning and the Implementable Efficient Frontier</a> (Jensen et al., 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Factors</strong> (November 8)</p>
+                    <ul>
+                        <li>Marcelo Medeiros - <a href="">Bridging Factor and Sparse Models</a> (Fan et al., 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>FOMC Announcement</strong> (October 25)</p>
+                    <ul>
+                        <li>Tomasso Baglioni - <a href="">The FOMC Announcement Reversal</a></li>
+                        <li>Tomasso Baglioni - <a href="">Market Liquidity and the Post-FOMC Announcement Return</a> </li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Attention</strong> (October 4)</p>
+                    <ul>
+                        <li>Giordano Bressan - <a href="">Attention-induced Trading and Returns: Evidence from Robinhood Users</a> (Barber et al., 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Retail Trading</strong> (Semptember 19)</p>
+                    <ul>
+                        <li>Fabio Lopez - <a href="">Retail Trading in Options and the Rise of the Big Three Wholesalers</a> (Bryzgalova et al., 2022)</li>
+                        <li>Fabio Lopez - <a href="">Retail Investors' Contrarian Behavior Around News, Attention, and the Momentum Effect</a> (Luo et al., 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Factor Momentum and Correlated Factors</strong> (Semptember 5)</p>
+                    <ul>
+                        <li>Tomás Nobrega - <a href="">Factor Momentum and the Momentum Factor</a> (Ehsani & Linnainmaa, 2022)</li>
+                        <li>Hugo Stellet - <a href="">The Cross Section of Asset Returns with Correlated Factors</a> (Sun, 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Portfolio Optimization and Short Term Reversals</strong> (August 22)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Dynamic Portfolio Optimization with Inverse Covariance Clustering</a> (Wang & Aste, 2022)</li>
+                        <li>Conrado Garcia - <a href="">Short Term Reversals and the Negative Impact of Factor Momentum</a> </li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Network Diversification / Cryptocurrencies</strong> (June 22)</p>
+                    <ul>
+                        <li>Helder Palaro - <a href="">Network Diversification for a Robust Portfolio Allocation</a> (Jaeger & Marinelli, 2022)</li>
+                        <li>Rafael Alves - <a href="">Common Risk Factors in Cryptocurrencies</a> (Liu et al., 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Monetary Policy Surprises</strong> (June 6)</p>
+                    <ul>
+                        <li>Victor Bluhu - <a href="">A Reassessment of Monetary Policy Surprises and High-Frequency Identification</a> (Bauer & Swanson, 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Options</strong> (May 23)</p>
+                    <ul>
+                        <li>Caio Natividade - <a href="">Going Naked: Investing with Delta Unhedged Options</a> </li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Currency Momentum</strong> (April 25)</p>
+                    <ul>
+                        <li>Tommaso Baglioni - <a href="">Dissecting Currency Momentum</a> (Zhang, 2022)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Behavior Bias</strong> (April 4)</p>
+                    <ul>
+                        <li>Guilherme Souza - <a href="">Smoking Hot Portfolios? Trading Behavior, Investment Biases, and Self-control Failure</a> (Uhr et al, 2021)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2021 Meetings -->
+            <div id="meetings-2021" class="meeting-list">
+                <div class="meeting-item">
+                    <p><strong>Stock Selection</strong> (December 13)</p>
+                    <ul>
+                        <li>Helder Palaro - <a href=""> Aplicação de modelos alternativos para seleção deações no mercado brasileiro</a> (Palaro, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Deep Learning</strong> (November 22)</p>
+                    <ul>
+                        <li>Rafael Alves - <a href="">Deep Learning in Asset Pricing</a> (Chen, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Liquidity Crisis</strong> (November 8)</p>
+                    <ul>
+                        <li>Tommaso Baglioni - <a href="">Anatomy of a liquidity crisis: Corporate bonds in the COVID-19 crisis</a> (O'Hara & Zhou, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Dynamic Asset Allocation</strong> (October 18)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Liquidity Regimes and Optimal Dynamic Asset Allocation</a> ((Collin-Dufresne et al., 2018))</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Trends / Monetary Policy</strong> (October 18)</p>
+                    <ul>
+                        <li>Helder Palaro - <a href="">Breaking Bad Trends</a> (Garg et al., 2021)</li>
+                        <li>Pâmela Borges - <a href="">Monetary Policy and Asset Pricing Overshooting: A Rationale for the Wall/Main Street Disconnect</a> (Caballero & Simsek, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Beliefs and Portfolios</strong> (August 23)</p>
+                    <ul>
+                        <li>Guilherme Paiva - <a href="">Five Facts about Beliefs and Portfolios</a> (Giglio et al., 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Interest Rates</strong> (August 9)</p>
+                    <ul>
+                        <li>Emanuel Fernandes - <a href="">Interest Rates under Falling Stars</a> (Bauer & Rudebusch, 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Inflation / Past Returns</strong> (July 26)</p>
+                    <ul>
+                        <li>Pâmela Borges - <a href="">The Term Structure and Inflation Uncertainty</a> (Breach et al., 2020)</li>
+                        <li>Marcelo Marques - <a href="">Understanding Momentum and Reversal</a> (Kelly et al., 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Business Cycles / Bubbles</strong> (July 12)</p>
+                    <ul>
+                        <li>Brenno Sá - <a href="">Tradability of Output, Business Cycles, and Asset Prices</a> (Tian, 2018)</li>
+                        <li>Emanuel Fernandes - <a href="">Bubbles for Fama</a> (Greenwood et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Volatility / Bubbles</strong> (June 28)</p>
+                    <ul>
+                        <li>Leonardo Ladalardo - <a href="">News Implied Volatility and Disaster Concerns</a> (Manela & Moreira, 2017)</li>
+                        <li>Thales Guimarães - <a href="">Extrapolation and Bubbles</a> (Barberis et al., 2018)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Low Risk Anomalies / Quality</strong> (June 14)</p>
+                    <ul>
+                        <li>Rafael Porsani - <a href="">What Is Quality?</a> (Hsu et al., 2019)</li>
+                        <li>Igor Martins - <a href="">Low‐Risk Anomalies?</a> (Schneider et al., 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Corporate Bonds & Currency Returns</strong> (May 3)</p>
+                    <ul>
+                        <li>Guilherme Souza - <a href="">Implied Volatility Changes and Corporate Bond Returns</a> (Cao et. al., 2020)</li>
+                        <li>Igor Martins - <a href="">Business Cycles and Currency Returns</a> (Colacito, 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Presidential Cycles & Factor Demand</strong> (April 19)</p>
+                    <ul>
+                        <li>Victor Bluhu - <a href="">U.S. Presidential Cycles and the Foreign Exchange Market</a> (Ashour et al., 2019)</li>
+                        <li>Guilherme Paiva - <a href="">Factor Demand and Factor Returns</a> (Peng & Wang, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>ESG & Earnings Seasonality</strong> (April 5)</p>
+                    <ul>
+                        <li>Luiz Claudio Sacramento - <a href="">Being Surprised by the Unsurprising: Earnings Seasonality and Stock Returns</a> (Chang et al., 2016)</li>
+                        <li>Lucas Macoris - <a href="">The Esg-Innovation Disconnect: Evidence from Green Patenting</a> (Cohen et al., 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Mutual Funds & Momentum</strong> (March 22)</p>
+                    <ul>
+                        <li>Fernando Tassinari - <a href="">Text-Based Mutual Fund Peer Groups</a> (Abis & Lines, 2021)</li>
+                        <li>Raphael Vasconcelos - <a href="">Option Momentum</a> (Heston & Li, 2021)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Factors & News</strong> (March 8)</p>
+                    <ul>
+                        <li>Tommaso Baglioni - <a href="">What Drives the Size and Value Factors?</a> (Li, 2019)</li>
+                        <li>Hugo Stellet- <a href="">Front Page News: The Effect of News Positioning on Financial Markets</a> (Fedyk, 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Currency & Factor Investing</strong> (February 22)</p>
+                    <ul>
+                        <li>Pâmela Borges - <a href="">Currency Anomalies</a> (Bartram et al., 2018)</li>
+                        <li>Rafael Alves - <a href="">What Alleviates Crowding in Factor Investing?</a> (DeMiguel, 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Factors</strong> (February 8)</p>
+                    <ul>
+                        <li>Felipe Boralli - <a href="">Time-Series Efficient Factors</a> (Ehsani & Linnainmaa, 2020)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2020 Meetings -->
+            <div id="meetings-2020" class="meeting-list">
+                <div class="meeting-item">
+                    <p><strong>Core Earnings & Harm</strong> (December 14)</p>
+                    <ul>
+                        <li>Walter Mascarenhas - <a href="">Harm: hidden autoregressive Markov models</a> ()</li>
+                        <li>Marcello Paixão - <a href="">Core Earnings: New Data and Evidence</a> (Rouen et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>CIP Violations & Entrepreneurship</strong> (November 30)</p>
+                    <ul>
+                        <li>Igor Martins - <a href="">Deviations from covered interest rate parity</a> (Du et al., 2018)</li>
+                        <li>Lucas Macoris - <a href="">Financing entrepreneurship: Tax  incentives for early-stage investors</a> (Denes et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Cross-Sectional Patterns and Economic Momentum in Currencies</strong> (November 16)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Economic Momentum and Currency Returns</a> (Dahlquist & Hasseltoft, 2020)</li>
+                        <li>Helder Palaro - <a href="">Characteristics Are Covariances: A Unified Model of Risk and Return</a> (Kelly et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Underreaction</strong> (November 9)</p>
+                    <ul>
+                        <li>Guilherme Paiva - <a href="">Pervasive underreaction: Evidence from high-frequency data</a> (Jiang et al., 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>One-Day Factor Momentum</strong> (October 19)</p>
+                    <ul>
+                        <li>Conrado Garcia - <a href="">Factor-based Lead-Lag Effects and One-Day Factor Momentum</a> (Garcia et al., 2020)</li>
+                        <li>Tommaso Baglioni - <a href="">Mood beta and seasonalities in stock returns</a> (Hirshleifer et al., 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Demand Systems</strong> (October 5)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Which Investors Matter for Equity Valuations and Expected Returns?</a> (Koijen, 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Return Predictability and Exchange Rates</strong> (August 24)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Principal Portfolios</a> (Kelly et al., 2020)</li>
+                        <li>Igor Martins - <a href="">Forward and spot exchange rates in a multi-currency world</a> (Hassan & Mano, 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>International Finance</strong> (August 10)</p>
+                    <ul>
+                        <li>Pâmela Borges - <a href="">Exchange Rate Reconnect</a> (Lilley et al.)</li>
+                        <li>Victor Hugo Alexandrino - <a href="">Home currency issuance in international bond markets</a> (Hale et al., 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Venture Capital</strong> (July 27)</p>
+                    <ul>
+                        <li>Juliano Faria - <a href="">The effects of business accelerators on venture performance: Evidence from Start-Up Chile</a> (Gonzalez-Uribe & Leatherbee, 2018)</li>
+                        <li>Discussion with Entrepreneurs. Invited speakers: Andre Narciso (Quero Educação), Marcelo Abritta (Buser), Thiago Matias (Guichê Virtual) e Tiago Serrano (SoluCX)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Systemic Risk and Equity-Bond Risk-Return Trade Offs</strong> (July 13)</p>
+                    <ul>
+                        <li>Guilherme Souza - <a href="">A macroeconomic framework for quantifying systemic risk</a> (He & Krishnamurthy, 2019)</li>
+                        <li>Leonardo Siqueira - <a href="">Nonlinearity and Flight-to-Safety in the Risk-Return Trade-Off for Stocks and Bonds</a> (Adrian et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Accounting Information and Term Structure</strong> (June 29)</p>
+                    <ul>
+                        <li>Victor Monteiro - <a href="">Lazy Prices</a> (Cohen et al., 2019)</li>
+                        <li>Fernando Cardoso - <a href="">Expectation Hypothesis Holds. At times.</a> (Cardoso et al., 2020)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Anomalies</strong> (June 15)</p>
+                    <ul>
+                        <li>Tommaso Baglioni - <a href="">Turning alphas into betas: Arbitrage and endogenous risk</a> (Cho, 2020)</li>
+                        <li>Igor Martins - <a href="">What drives anomaly returns?</a> (Lochstoer & Tetlock, 2016)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Intermediary Asset Pricing and Informed Investors </strong> (June 1)</p>
+                    <ul>
+                        <li>Felipe Tomkowski - <a href="">Intermediary asset pricing: New evidence from many asset classes</a> (He et al., 2017)</li>
+                        <li>Luís Otávio Pinto - <a href="">Individual investor trading and return patterns around earnings announcements</a> (Kaniel et al., 2012)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong></strong> ()</p>
+                    <ul>
+                        <li>Guilherme Paiva - <a href="">A demand system approach to asset pricing</a> (Kojien & Yogo, 2019)</li>
+                        <li>Bruno Levy - <a href="">Sparse signals in the cross‐section of returns</a> (Chinco et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Ph.D Student Session</strong> (January 27)</p>
+                    <ul>
+                        <li>Raphael Gondo - <a href="">Let's work together? The workers' network effect in funds' performances</a> (Gondo, 2020)</li>
+                        <li>Fernando Morae - <a href="">Risk Factor Centrality and The Cross-section of Expected Returns</a> (Moraes, 2020)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2019 Meetings -->
+            <div id="meetings-2019" class="meeting-list">
+                <div class="meeting-item">
+                    <p><strong>Value Creation in Funds & Robo-advising</strong> (December 2)</p>
+                    <ul>
+                        <li>Fernando Moraes - <a href="">Skill and Value Creation in the mutual fund industry</a> (Barras et al., 2019)</li>
+                        <li>Antônio Daniel Caluz - <a href="">The promisse and pitfalls of robo-advising</a> (D'Acunto et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Equity Risk Premia</strong> (November 11)</p>
+                    <ul>
+                        <li>Rafael Porsani - <a href="">Agnostic fundamental analysis works</a> (Bartram & Grinblatt, 2018)</li>
+                        <li>Guilherme Paiva <a href="">The Cross-Section of Risk and Returns</a> (Daniel et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Forecasting with Text Data</strong> (October 14)</p>
+                    <ul>
+                        <li>Axel Simonsen - <a href="">Predicting Returns with Text Data</a> (Ke et al., 2019)</li>
+                        <li>Gustavo Amarante - <a href="">The Structure of Economic News</a> (Bybee et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Sovereign Funding Markets</strong> (September 23)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Default Risk and the Pricing of U.S. Sovereign Bonds</a> (Dittmar et al., 2019)</li>
+                        <li>Lucas Pires - <a href="">Mind the (Convergence) Gap: Forward Rates Strike Back!</a> (Berardi et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Risk Parity</strong> (September 9)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Risk Parity Is Not Short Volatility</a> (Hood et al., 2019)</li>
+                        <li>Luis Abrahão - <a href="">Least-squares approach to risk parity in portfolio selection</a> (Bai et al., 2016)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Paycheck Frequency & Households’ Decisions</strong> (August 19)</p>
+                    <ul>
+                        <li>Filipe Correia - Does Paycheck Frequency Matter for Households’ Decisions? Evidence from Financial Account Data (Baugh et al, 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>ML and the Factor Zoo</strong> (August 12)</p>
+                    <ul>
+                        <li>Alexandre Rubesam - <a href="">Searching the Factor Zoo</a> (Hwang & Rubesam, 2019)</li>
+                        <li>Alexandre Rubesam - Empirical Asset Pricing via Machine Learning (Gu et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Interest Rate Slope</strong> (June 24)</p>
+                    <ul>
+                        <li>Claudia Bruschi - <a href="">Monetary Policy Communication, Policy Slope, and the Stock Market</a> (Neuhier & Weber, 2019)</li>
+                        <li>Pedro Castro - Currency Returns and Interest Rate Slopes (Castro & Ribeiro, 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Portfolio Construction</strong> (June 3)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Dynamic trading with predictable returns and transaction costs</a> (Gârleanu & Pedersen, 2013)</li>
+                        <li>Fernando Moraes - <a href="">Strategic Rebalancing</a> (Granger et al., 2019)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Factors</strong> (May 20)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Factor risk premiums and invested capital: calculations with stochastic discount factors</a> (Ang et al., 2016)</li>
+                        <li>Raphael Gondo - Factor Timing with Cross-Sectional and Time-Series Predictors (Hodges et al., 2017)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Liquidity</strong> (May 6)</p>
+                    <ul>
+                        <li>Marcio Prado - Slow-Moving Liquidity Provision and Flow-Driven Common Factors in Stock Returns (Li, 2018)</li>
+                        <li>Guilherme Paiva - <a href="">Brokers and Order Flow Leakage: Evidence from Fire Sales</a> (Barbon et al., 2017)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Financial Intermediaries</strong> (April 22)</p>
+                    <ul>
+                        <li>Claudia Bruschi - <a href="">Financial Intermediaries and the Cross-Section of Asset Returns</a> (Adrian et al., 2014)</li>
+                        <li>Bruno Lund - <a href="">Financial Amplification of Foreign Exchange Risk Premia</a> (Adrian et al., 2011)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Machine Learning</strong> (April 8)</p>
+                    <ul>
+                        <li>Fernando Moraes - <a href="">Shrinking the cross section</a> (Kozak et al., 2017)</li>
+                        <li>Marcello Paixão - Empirical Asset Pricing via Machine Learning (Gu et al., 2018)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Fixed Income</strong> (March 11)</p>
+                    <ul>
+                        <li>Rafael Porsani - <a href="">The TIPS‐Treasury Bond Puzzle</a> (Fleckenstein et al., 2013)</li>
+                        <li>Fernando Moraes - <a href="">Expected Returns in Treasury Bonds</a> (Cieslak & Povala, 2015)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Yield Curve</strong> (February 25)</p>
+                    <ul>
+                        <li>Gustavo Amarante - <a href="">Yield Curve Premia</a> (Brooks & Moskowitz, 2017)</li>
+                        <li>Gustavo Amarante - <a href="">Pricing the Term Structure with Linear Regressions</a> (Adrian et al., 2013)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Macro Announcements and Returns</strong> (February 12)</p>
+                    <ul>
+                        <li>Marcelo Paixão - <a href="">The Pre‐FOMC Announcement Drift</a> (Lucca & Moench, 2015)</li>
+                        <li>Diogo Duarte - <a href="">Monetary Momentum</a> (Neuhierl & Weber, 2018)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Crowded Trades, Momentum and Carry</strong> (January 29)</p>
+                    <ul>
+                        <li>Rafael Rocha - <a href="">Comomentum</a> (Lu & Polk)</li>
+                        <li>Claudia Bruschi - <a href="">Crowds, Crashes, and the Carry Trade</a> (Sokolovski, 2018)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Momentum and Financial Institutions</strong> (January 15)</p>
+                    <ul>
+                        <li>Raphael Gondo - <a href="">An Institutional Theory of Momentum and Reversal</a> (Vayanos & Woolley, 2013)</li>
+                        <li>Apinyapon Seingyai - <a href="">Flow-Based Explanation for Return Predictability</a> (Lou, 2012)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2018 Meetings -->
+            <div id="meetings-2018" class="meeting-list">
+                <div class="meeting-item">
+                    <p><strong>Low Beta & Risk Parity</strong> (December 4)</p>
+                    <ul>
+                        <li>Fernando Moraes - <a href="">Betting Against Beta</a> (Frazzini & Pedersen, 2014)</li>
+                        <li>Guido Chagas - Benchmarks as Limits to Arbitrage: Understanding the Low-Volatility Anomaly (Baker et al., 2011)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>ERP and Options</strong> (November 21)</p>
+                    <ul>
+                        <li>Ruy Ribeiro - <a href="">What is the Expected Return on the Market?</a> (Martin & Wagner)</li>
+                        <li>Ruy Ribeiro - <a href="">What is the Expected Return on a Stock?</a> (Martin & Wagner)</li>
+                    </ul>
+                </div>
+                <div class="meeting-item">
+                    <p><strong>Premia </strong> (October 23)</p>
+                    <ul>
+                        <li>Gustavo Soares - <a href="">Common Factors in Corporate Bond Returns</a> (Israel et al.)</li>
+                        <li>Paulo Costa - <a href="">Short- and Long-Horizon Behavioral Factors</a> (Daniel et al.)</li>
+                    </ul>
+                </div>
+            </div>
+
             </section>
         </article>
     </div>
@@ -193,14 +663,34 @@ title: Finance Hub
     document.addEventListener('DOMContentLoaded', function() {
         const toggle2024Button = document.getElementById('toggle-2024');
         const toggle2023Button = document.getElementById('toggle-2023');
+        const toggle2022Button = document.getElementById('toggle-2022');
+        const toggle2021Button = document.getElementById('toggle-2021');
+        const toggle2020Button = document.getElementById('toggle-2020');
+        const toggle2019Button = document.getElementById('toggle-2019');
+        const toggle2018Button = document.getElementById('toggle-2018');
         const meetings2024 = document.getElementById('meetings-2024');
         const meetings2023 = document.getElementById('meetings-2023');
+        const meetings2022 = document.getElementById('meetings-2022');
+        const meetings2021 = document.getElementById('meetings-2021');
+        const meetings2020 = document.getElementById('meetings-2020');
+        const meetings2019 = document.getElementById('meetings-2019');
+        const meetings2018 = document.getElementById('meetings-2018');
 
         toggle2024Button.addEventListener('click', function() {
             // Toggle the 'show' class on the 2024 meetings list
             meetings2024.classList.toggle('show');
             // Ensure the 2023 meetings list is hidden
             meetings2023.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
         });
 
         toggle2023Button.addEventListener('click', function() {
@@ -208,6 +698,101 @@ title: Finance Hub
             meetings2023.classList.toggle('show');
             // Ensure the 2024 meetings list is hidden
             meetings2024.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
+        });
+
+        toggle2022Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2022 meetings list
+            meetings2022.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
+        });
+
+        toggle2021Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2021 meetings list
+            meetings2021.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
+        });
+
+        toggle2020Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2020 meetings list
+            meetings2020.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
+        });
+
+        toggle2019Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2019 meetings list
+            meetings2019.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2018 meetings list is hidden
+            meetings2018.classList.remove('show');
+        });
+
+        toggle2018Button.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2018 meetings list
+            meetings2018.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            meetings2024.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            meetings2023.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            meetings2022.classList.remove('show');
+            // Ensure the 2021 meetings list is hidden
+            meetings2021.classList.remove('show');
+            // Ensure the 2020 meetings list is hidden
+            meetings2020.classList.remove('show');
+            // Ensure the 2019 meetings list is hidden
+            meetings2019.classList.remove('show');
         });
     });
 </script>
