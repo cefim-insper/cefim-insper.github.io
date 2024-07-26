@@ -12,6 +12,29 @@ title: Finance Hub
         display: block; /* Show the meetings list when the 'show' class is added */
     }
 </style>
+
+<style>
+    #technology, #education, #research {
+        display: none; /* Hide the meetings lists by default */
+        margin-top: 20px;
+    }
+
+    #technology.show, #education.show, #research.show {
+        display: block; /* Show the meetings list when the 'show' class is added */
+    }
+</style>
+
+<style>
+    #journals, #related {
+        display: none; /* Hide the meetings lists by default */
+        margin-top: 20px;
+    }
+
+    #journals.show, #related.show {
+        display: block; /* Show the meetings list when the 'show' class is added */
+    }
+</style>
+
 <!-- Main -->
 <div class="wrapper style1">
 
@@ -656,9 +679,143 @@ title: Finance Hub
             </div>
 
             </section>
+
+            <section>
+                <header>
+                    <h3 id="background">Background</h3>
+                </header>
+                <p>
+                    There has been an explosion of interest in systematic strategies. Varying in complexity, 
+                    quantitative ideas are now mainstream and part of any large institutional portfolio.
+                </p>
+                <p>
+                    Top investment firms in the world have moved away from the “secret-sauce” mindset and now co-author research with academics, 
+                    dedicate resources to education, create new technologies, construct publicly available data sets, 
+                    and run labs in markets, data science, and technology. They are even bringing open source technology to investing itself. 
+                    The Brazilian asset management industry is late in this process with very few teams fully dedicated to a systematic approach to investing.
+                </p>
+                <p>
+                    Brazilian portfolios are becoming more international, multi-dimensional and complex. Systematization is a transparent and efficient 
+                    way of institutional investors to deal with complexity and lack familiarity with certain markets. Our professionals need to be trained 
+                    in the sciences and technologies of this new approach. We need to start building a more symbiotic relationship with academia. 
+                    The FinanceHub is an attempt to create a community of investment professionals and academics in Brazil capable of doing just that, 
+                    fostering the research and technology that will help the Brazilian asset management industry cope with its new challenges. 
+                </p>
+                </section>
+
+            <section>
+                <header>
+                    <h3 id="what-we-do">What We Do</h3>
+                </header>
+
+                <!-- Buttons for toggling -->
+                <button style="background-color: #C00026; color: white;" id="toggle-tech">Technology</button>
+                <button style="background-color: #C00026; color: white;" id="toggle-edu">Education</button>
+                <button style="background-color: #C00026; color: white;" id="toggle-research">Research</button>
+
+                <!-- technlogy -->
+                <div id="technology" class="what">
+                    <p>
+                        We built a <a href="https://github.com/Finance-Hub/FinanceHub">GitHub Repository</a> with codes to support research in finance.
+                         Some code helps easily access raw and treated data stored in our servers. 
+                         Some code implements models used on the analysis of that data. 
+                         The objective of this branch is to build tools for research which will reduce the cost of data acquisition as well as model set up. 
+                    </p>
+                </div>
+
+                <!-- education -->
+                <div id="education" class="what">
+                    <p>
+                        We have lectures on <a href="https://github.com/Finance-Hub/FinanceHubMaterials/tree/master/Python%20Lectures">Python programming</a> for finance and financial theory. 
+                        All of the material is available in our repository in the format of slides and jupyter notebooks, 
+                        so that everyone can learn python and help build up the community and push the project forward. 
+                    </p>
+                </div>
+
+                <!-- research -->
+                <div id="research" class="what">
+                    <p>
+                        We actively discuss and promote research in finance. Among our activities, 
+                        we organize regular academic seminars on a wide range of finance topics. 
+                        We also encourage our participants to circulate interesting academic and practitioner research 
+                        to all members and circulate information on finance seminars at Insper and other institutions.
+                    </p>
+                </div>
+                
+            </section>
+            <section>
+                <header>
+                    <h3 id="where-to-find">Where to Find Finance Research</h3>
+                </header>
+
+                <!-- Buttons for toggling -->
+                <button style="background-color: #C00026; color: white;" id="toggle-journals">Journals</button>
+                <button style="background-color: #C00026; color: white;" id="toggle-related">Other Resources</button>
+
+                <!-- Journals -->
+                <div id="journals" class="where">
+                    <p><a href="">Financial Analysts Journal</a></p>
+                    <p><a href="">Journal of Accounting and Economics</a></p>
+                    <p><a href="">Journal of Asset Management</a></p>
+                    <p><a href="">Journal of Banking and Finance</a></p>
+                    <p><a href="">Journal of Corporate Finance</a></p>
+                    <p><a href="">Journal of Econometrics</a></p>
+                    <p><a href="">Journal of Empirical Finance</a></p>
+                    <p><a href="">Journal of Finance</a></p>
+                    <p><a href="">Journal of Financial and Quantitative Analysis</a></p>
+                    <p><a href="">Journal of Financial Markets</a></p>
+                    <p><a href="">Journal of Financial Economics</a></p>
+                    <p><a href="">Journal of International Financial Markets, Institutions & Money</a></p>
+                    <p><a href="">Journal of International Money and Finance</a></p>
+                    <p><a href="">Journal of Portfolio Management</a></p>
+                    <p><a href="">Pacific-Basin Finance Journal</a></p>
+                    <p><a href="">The Review of Financial Studies</a></p>
+                    <p><a href="">Review of Finance</a></p>
+                </div>
+                
+                <!-- Other Resources -->
+                <div id="related" class="where">
+                    <p><a href="">American Finance Association</a></p>
+                    <p><a href="">AQR Capital Management</a>: AQR is a global investment management firm at the nexus of economics, behavioral finance, data and technology. Have a look in the education section of their website.</p>
+                    <p><a href="">Axioma</a>: Axioma - Provide multi-asset enterprise risk management, portfolio construction, regulatory reporting and custom index design.</p>
+                    <p><a href="">CRSP</a>: CRSP has provided research-quality data to scholarly researchers and advanced the body of knowledge in finance, economics and related disciplines.</p>
+                    <p><a href="">CQA</a>: CQA serves as an active professional organization focused on the needs of the quantitative investment practitioner.</p>
+                    <p><a href="">European Finance Association</a></p>
+                    <p><a href="">European Financial Management Association</a></p>
+                    <p><a href="">Flirting with Models</a>: Research Library of Newfound Research, a quantitative asset management firm.</p>
+                    <p><a href="">Financial Management Association</a></p>
+                    <p><a href="">Jacobs Levy Equity Management</a>: Jacobs Levy Equity Management has conducted over 30 years of research in security pricing, portfolio construction, and trading techniques.</p>
+                    <p><a href="">Midwest Finance Association</a></p>
+                    <p><a href="">Morningstar</a>: Morningstar is a Chicago-based investment research firm that compiles and analyzes fund, stock, and general market data.</p>
+                    <p><a href="">Northern Finance Association</a></p>
+                    <p><a href="">Northfield</a>: Northfield is s risk management analytics provider known for its research based applications.</p>
+                    <p><a href="">Python for Econometrics</a></p>
+                    <p><a href="">Quantitative Economics</a>: This website presents a series of lectures on quantitative economic modeling, designed and written by Thomas J. Sargent and John Stachurski.</p>
+                    <p><a href="">Quantopian</a>: Quantopian is a crowd-sourced quantitative investment firm. They inspire talented people from around the world to write investment algorithms.</p>
+                    <p><a href="">QuantResearch</a>: Marcos Lopéz de Prado personal website. There you can find the python codes used in his papers.</p>
+                    <p><a href="">Robeco</a>: Robeco is an international asset manager offering a range of active investments, from equities to bonds.</p>
+                    <p><a href="">Sociedade Brasileira de Finanças</a></p>
+                    <p><a href="">Society of Quantitative Analyst</a>: The principal mission of the SQA is to encourage the dissemination and discussion of leading-edge ideas and innovations related to the work of the quantitatively-oriented investment professional.</p>
+                    <p><a href="">Two Sigma</a>: Two Sigma is a New York City-based international hedge fund that uses a variety of technological methods, including artificial intelligence, machine learning, and distributed computing, for its trading strategies.</p>
+                    <p><a href="">The Society for Financial Econometrics</a>: The Society for Financial Econometrics is a global network of academics and practitioners dedicated to sharing research and ideas in the fast-growing field of financial econometrics.</p>
+                    <p><a href="">Western Finance Association</a></p>
+                </div>
+            </section>
+
+            <section>
+                <header>
+                    <h3 id="projects">Projects</h3>
+                </header>
+
+                <p><a href="https://github.com/Finance-Hub/FinanceHub/projects/8">Tracker Building</a>: Build tracker for all asset classes</p>
+                <p><a href="https://github.com/Finance-Hub/FinanceHub/projects/6">Portfolio Construction</a>: Tools for combining assets into a portfolio</p>
+                <p><a href="https://github.com/Finance-Hub/FinanceHub/projects/5">Performance Evaluation</a>: Create a library to evaluate the performance of trackers</p>
+                <p><a href="https://github.com/Finance-Hub/FinanceHub/projects/4">Factor Building</a>: Build classes that compute factors for all asset classes</p>
+            </section>
         </article>
     </div>
 </div>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const toggle2024Button = document.getElementById('toggle-2024');
@@ -793,6 +950,67 @@ title: Finance Hub
             meetings2020.classList.remove('show');
             // Ensure the 2019 meetings list is hidden
             meetings2019.classList.remove('show');
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleTechButton = document.getElementById('toggle-tech');
+        const toggleEduButton = document.getElementById('toggle-edu');
+        const toggleResearchButton = document.getElementById('toggle-research');
+        const tech = document.getElementById('technology');
+        const edu = document.getElementById('education');
+        const research = document.getElementById('research');
+
+        toggleTechButton.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2024 meetings list
+            tech.classList.toggle('show');
+            // Ensure the 2023 meetings list is hidden
+            edu.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            research.classList.remove('show');
+        });
+
+        toggleEduButton.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2023 meetings list
+            edu.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            tech.classList.remove('show');
+            // Ensure the 2022 meetings list is hidden
+            research.classList.remove('show');
+        });
+
+        toggleResearchButton.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2022 meetings list
+            research.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            tech.classList.remove('show');
+            // Ensure the 2023 meetings list is hidden
+            edu.classList.remove('show');
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleJournalsButton = document.getElementById('toggle-journals');
+        const toggleRelatedButton = document.getElementById('toggle-related');
+        const journals = document.getElementById('journals');
+        const related = document.getElementById('related');
+
+        toggleJournalsButton.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2024 meetings list
+            journals.classList.toggle('show');
+            // Ensure the 2023 meetings list is hidden
+            related.classList.remove('show');
+        });
+
+        toggleRelatedButton.addEventListener('click', function() {
+            // Toggle the 'show' class on the 2023 meetings list
+            related.classList.toggle('show');
+            // Ensure the 2024 meetings list is hidden
+            journals.classList.remove('show');
         });
     });
 </script>
