@@ -175,10 +175,10 @@ body:not(.homepage) {
 
 
 /****************
- * Publications *
+ * Data Projects *
  ****************/
 
-.publications {
+.dataprojects {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -254,7 +254,7 @@ body:not(.homepage) {
  ****************/
 
 @media screen and (max-width: 1680px) {
-  .publications {
+  .dataprojects {
     padding: 1.5em 0 1.5em 1.25em;
 
     article {
@@ -269,7 +269,7 @@ body:not(.homepage) {
     font-size: 16px;
   }
 
-  .publications  {
+  .dataprojects  {
     padding: 1.25em 0 1.25em 0;
 
     article {
@@ -286,7 +286,7 @@ body:not(.homepage) {
     padding-bottom: 1.5em;
   }
 
-  .publications {
+  .dataprojects {
     padding: 0.5em 0 0.5em 0;
 
     article {
@@ -469,7 +469,7 @@ body:not(.homepage) {
     }
   }
 
-  .publications article {
+  .dataprojects article {
     margin-right: 0;
     width: 100%;
 
