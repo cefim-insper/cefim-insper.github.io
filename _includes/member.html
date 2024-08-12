@@ -1,0 +1,33 @@
+<article>
+  <a class="image featured" {% if member.source %}href="{{ member.source }}"{% endif %}>
+    {% if member.image %}
+    <img src="{{ member.image.url | default: '' }}"
+         alt="{{ member.image.alt | default: '' }}" />
+    {% else %}
+      <img class="no-image" alt="No image provided" />
+    {% endif %}
+  </a>
+
+  <header>
+    {% if member.source %}
+    <a href="{{ member.source }}">
+    {% endif %}
+      <h3>
+        {{ member.title }}
+        <span class="timestamp">{{ member.displayDate }}</span>
+      </h3>
+    {% if member.source %}
+    </a>
+    {% endif %}
+  </header>
+
+  <p>
+    {{ member.blurb }}
+  </p>
+
+  <p>
+  {% for link in member.links %}
+    <a href="{{ link.url }}">{{ link.text }}</a>
+  {% endfor %}
+  </p>
+</article>
