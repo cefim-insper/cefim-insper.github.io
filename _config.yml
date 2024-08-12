@@ -1,0 +1,16 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: Insper Finance and Macro Unit 
+description: |
+  The web page of Finance and Macroeconomics 
+  study group at Insper
+owner: Insper Finance and Macro Unit 
+first_published: 2024
+email: cefim@insper.edu.br
+baseurl: ""
+# url: "http://localhost:4000"
+permalink: pretty
+collections:
+  publications:

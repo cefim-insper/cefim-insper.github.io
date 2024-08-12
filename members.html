@@ -1,0 +1,16 @@
+---
+layout: default
+title: Members
+---
+
+<aside>Here, a list of our actual and former members. Check their LinkdIns.</aside>
+
+<div class="members">
+
+  {% assign members = (site.members) | reverse %}
+
+  {% for member in members %}
+    {% include member.html member=member %}
+  {% endfor %}
+
+</div>
